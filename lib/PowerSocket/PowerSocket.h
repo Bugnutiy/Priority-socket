@@ -5,7 +5,9 @@
 class PowerSocket
 {
     private:
-    int voltage;
+    int _voltage;
+    float _temperature;
+    uint8_t _PinRelay, _PinDs18, _PinHc12;
     public:
         PowerSocket();
         void on();
